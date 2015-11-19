@@ -49,6 +49,13 @@ text-decoration: underline overline;
 
 }
 
+a:visited{
+
+text-decoration: line-through;
+color:#a5c6bb;
+
+}
+
 
 strong {
   color:#458B74;
@@ -63,6 +70,11 @@ strong {
   header {
     padding:0;
   }
+
+  .wrapper {
+  width:860px;
+  margin:0 auto;
+}
 
   header ul, header p.view {
     position:static;
