@@ -26,6 +26,11 @@ h1 {
   font-size:100px;
 }
 
+h1.alt {
+  font-size:100px;
+  color:#ffffff;
+}
+
 h2 {
   color:#458B74;
 }
@@ -180,8 +185,8 @@ div#hmenu ul a:link{
    margin: 0; 
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
-   font-weight: bold; 
-   font-size: x-large; 
+ 
+   font-size: 14pt; 
    color: #9b9b9a; 
 } 
 
@@ -190,7 +195,7 @@ div#hmenu ul a:visited{
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
 
-   font-size: x-large; 
+   font-size: 14pt; 
    color: #9b9b9a; 
 } 
 
@@ -201,7 +206,7 @@ div#hmenu ul a:hover{
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
 
-   font-size: x-large; 
+   font-size: 14pt; 
    color: #383838; 
    background-color: #9b9b9a; 
 }
@@ -210,8 +215,85 @@ div#hmenu ul a:active{
    padding: .3em .4em .3em .4em; 
    text-decoration: none; 
 
-   font-size: x-large; 
+   font-size: 14pt; 
    color: #383838; 
    background-color: #9b9b9a; 
 } 
+
+
+p.new{
+  width: 80%;
+
+
+
+}
+
+
+div.reflect {
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    width: 80%;
+   /* border: 5px solid gray;
+    margin: 0; */
+}
+
+div.name {
+    background: #383838;
+    color: #ffffff;
+    padding: 10px;
+    width: 80%;
+   /* border: 5px solid gray;
+    margin: 0; */
+}
+
+div.bio {
+    background: #1e1e1e;
+    color: #ffffff;
+    padding: 10px;
+    width: 95%;
+   /* border: 5px solid gray;
+    margin: 0; */
+    max-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/*stuff for read more*/
+
+.bio .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 0 0; 
+  
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, black);
+}
+
+.button1 {
+   border-top: 0px solid #96d1f8;
+   background: #383838;
+  
+   padding: 5px 10px;
+
+   color: #ffffff;
+   font-size: 14px;
+
+   vertical-align: middle;
+}
+.button1:hover {
+
+   background: #9b9b9a;
+   color: #000000;
+}
+.button1:active {
+
+   background: #9b9b9a;
+}
+
+  
 
